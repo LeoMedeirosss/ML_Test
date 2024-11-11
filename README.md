@@ -2,8 +2,8 @@
 
 1- Membros da equipe:
 
-- Leonardo Medeiros <strong>@LeoMedeirosss<strong/> - (https://github.com/LeoMedeirosss)
-- Hugo Campelo <strong>@hcmr1808<strong/> - (https://github.com/hcmr1808)
+- Leonardo Medeiros @LeoMedeirosss - (https://github.com/LeoMedeirosss)
+- Hugo Campelo @hcmr1808 - (https://github.com/hcmr1808)
 
 2 - Nome da Disciplina: Aprendizado de Máquina - 2024.2
 
