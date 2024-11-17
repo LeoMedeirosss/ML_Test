@@ -156,9 +156,22 @@ _Tabela 2: Relatório de Classificação - Random Forest_
 - **RMSE**: 4.16
 - **MAPE**: 12.19%
 
+##### 4.3. KNN
+
+                precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       234
+         1.0       0.98      1.00      0.99     12295
+
+    accuracy                            0.98     12529
+    macro avg       0.49      0.50      0.50     12529
+    weighted avg    0.96      0.98      0.97     12529
+
+- **Acurácia** : 0.9811637002155
+
 ![Figura 6: Importância das Variáveis - Random Forest Regressor](images/importancia_variaveis_regressor.png)
 
-#### 4.3. Importância das Variáveis
+#### 4.4. Importância das Variáveis
 
 - **Variáveis mais influentes na Classificação**:
   1. `PLAN_PREGNANCY` (Planejamento da gravidez): 14.40%
