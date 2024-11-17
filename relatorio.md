@@ -108,14 +108,14 @@ O dataset compreende 41.762 registros de casos de sífilis congênita, com 26 va
 - **F1-Scores com Validação Cruzada**: [0.76, 0.79, 0.78, 0.79, 0.79]
 - **Média do F1-Score**: 0.782
 
-*Tabela 1: Relatório de Classificação - Decision Tree*
+_Tabela 1: Relatório de Classificação - Decision Tree_
 
-| Classe | Precisão | Recall | F1-Score | Suporte |
-|--------|----------|--------|----------|---------|
-| 0.0    | 0.03     | 0.39   | 0.05     | 150     |
-| 1.0    | 0.98     | 0.73   | 0.84     | 8203    |
-| **Acurácia** |          |        | **0.72**  | 8353    |
-| **Média Macro** | 0.51     | 0.56   | 0.44     |         |
+| Classe              | Precisão | Recall | F1-Score | Suporte |
+| ------------------- | -------- | ------ | -------- | ------- |
+| 0.0                 | 0.03     | 0.39   | 0.05     | 150     |
+| 1.0                 | 0.98     | 0.73   | 0.84     | 8203    |
+| **Acurácia**        |          |        | **0.72** | 8353    |
+| **Média Macro**     | 0.51     | 0.56   | 0.44     |         |
 | **Média Ponderada** | 0.97     | 0.72   | 0.82     |         |
 
 ##### 4.1.2. Random Forest
@@ -123,14 +123,14 @@ O dataset compreende 41.762 registros de casos de sífilis congênita, com 26 va
 - **F1-Scores com Validação Cruzada**: [0.93, 0.98, 0.98, 0.98, 0.98]
 - **Média do F1-Score**: 0.970
 
-*Tabela 2: Relatório de Classificação - Random Forest*
+_Tabela 2: Relatório de Classificação - Random Forest_
 
-| Classe | Precisão | Recall | F1-Score | Suporte |
-|--------|----------|--------|----------|---------|
-| 0.0    | 0.02     | 0.06   | 0.03     | 150     |
-| 1.0    | 0.98     | 0.95   | 0.97     | 8203    |
-| **Acurácia** |          |        | **0.94**  | 8353    |
-| **Média Macro** | 0.50     | 0.51   | 0.50     |         |
+| Classe              | Precisão | Recall | F1-Score | Suporte |
+| ------------------- | -------- | ------ | -------- | ------- |
+| 0.0                 | 0.02     | 0.06   | 0.03     | 150     |
+| 1.0                 | 0.98     | 0.95   | 0.97     | 8203    |
+| **Acurácia**        |          |        | **0.94** | 8353    |
+| **Média Macro**     | 0.50     | 0.51   | 0.50     |         |
 | **Média Ponderada** | 0.97     | 0.94   | 0.95     |         |
 
 ![Figura 4: Curva ROC - Decision Tree](images/ROC_decision_tree.png)
@@ -191,10 +191,12 @@ Os modelos indicam que fatores socioeconômicos e comportamentais têm grande in
 ##### 5.2.1. Políticas de Saúde Pública
 
 - **Educação e Conscientização**:
+
   - Campanhas sobre a importância do planejamento familiar.
   - Programas educacionais focados em saúde reprodutiva e prevenção de ISTs.
 
 - **Melhoria das Condições Socioeconômicas**:
+
   - Investimento em programas de segurança alimentar.
   - Melhoria das condições habitacionais e acesso a saneamento básico.
 
@@ -226,18 +228,8 @@ O código do projeto está disponível no repositório [GitHub](https://github.c
 
 ### 8. Referências
 
----
-
 **Artigo**:  
-TEIXEIRA, Igor; LEITE, Morgana; MELO, Flávio; ROCHA, Elisson; HADJ SADOK, Sara; SANTANA, Marília; MORAIS, Cleber; KELNER, Judith; ENDO, Patricia Takako. *Predicting congenital syphilis cases: A performance evaluation of different machine learning models*. PLOS ONE, v. 17, n. 10, 2022. Disponível em: <https://doi.org/10.1371/journal.pone.0276150>. Acesso em: 16 nov. 2024.
+TEIXEIRA, Igor; LEITE, Morgana; MELO, Flávio; ROCHA, Elisson; HADJ SADOK, Sara; SANTANA, Marília; MORAIS, Cleber; KELNER, Judith; ENDO, Patricia Takako. _Predicting congenital syphilis cases: A performance evaluation of different machine learning models_. PLOS ONE, v. 17, n. 10, 2022. Disponível em: <https://doi.org/10.1371/journal.pone.0276150>. Acesso em: 16 nov. 2024.
 
 **Dataset**:  
-TEIXEIRA, Igor; LEITE, Morgana; MELO, Flávio; ROCHA, Elisson; HADJ SADOK, Sara; SANTANA, Marília; MORAIS, Cleber; KELNER, Judith; ENDO, Patricia Takako. *Clinical and sociodemographic data on congenital syphilis cases, Brazil, 2013-2021*. Mendeley Data, v. 1, 2022. Disponível em: <https://doi.org/10.17632/3zkcvybvkz.1>. Acesso em: 16 nov. 2024.
-
-**Políticas Nacionais**:  
-MINISTÉRIO DA SAÚDE. Programa Previne Brasil: Atenção Primária à Saúde. Disponível em: <https://www.gov.br/saude/pt-br/composicao/saps/previne-brasil>. Acesso em: 16 nov. 2024.
-
-**Políticas Internacionais**:  
-HIV.GOV. *Ending the HIV Epidemic: A Plan for America*. Departamento de Saúde e Serviços Humanos dos Estados Unidos, 2020. Disponível em: <https://www.hiv.gov/federal-response/ending-the-hiv-epidemic/overview>. Acesso em: 16 nov. 2024.
-
-PRESIDÊNCIA DE EL SALVADOR. *Iniciativas em Saúde de Nayib Bukele*. Disponível em: <https://www.presidencia.gob.sv/category/salud/>. Acesso em: 16 nov. 2024.
+TEIXEIRA, Igor; LEITE, Morgana; MELO, Flávio; ROCHA, Elisson; HADJ SADOK, Sara; SANTANA, Marília; MORAIS, Cleber; KELNER, Judith; ENDO, Patricia Takako. _Clinical and sociodemographic data on congenital syphilis cases, Brazil, 2013-2021_. Mendeley Data, v. 1, 2022. Disponível em: <https://doi.org/10.17632/3zkcvybvkz.1>. Acesso em: 16 nov. 2024.
